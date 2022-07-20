@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-1121-dev-branch"
+  bucket = "my-tf-test-bucket-1121-dev-branch-test"
 
   tags = {
     Name        = "My bucket"
