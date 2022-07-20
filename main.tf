@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket-1121-${terraform.workspace}"
+  bucket = "my-tf-test-bucket-1121-dev-branch"
 
   tags = {
     Name        = "My bucket"
